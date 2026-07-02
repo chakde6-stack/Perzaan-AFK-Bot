@@ -26,9 +26,9 @@
       "sneak": true
     },
     "chat-messages": {
-      "enabled": true,
+      "enabled": false,
       "repeat": true,
-      "repeat-delay": 500,
+      "repeat-delay": 6000,
       "messages": [
         "I'm a regular player",
         "Subscribe to me!",
@@ -40,7 +40,7 @@
     "auto-reconnect-delay": 20,
     "max-reconnect-delay": 20,
     "periodic-rejoin": {
-      "enabled": true,
+      "enabled": false,
       "min-interval": 1,
       "max-interval": 2
     }
@@ -57,8 +57,8 @@
       "interval": 5000
     },
     "random-jump": {
-      "enabled": true,
-      "interval": 1000
+      "enabled": false,
+      "interval": 6000
     }
   },
   "modules": {
